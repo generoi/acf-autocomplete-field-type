@@ -23,5 +23,9 @@ This ACF field type is compatible with:
 
 == Changelog ==
 
+= 1.0.1 =
+* Composer added and hosted on packagist.
+* PSR-12 Coding standard adapted.
+
 = 1.0.0 =
 * Initial Release.
