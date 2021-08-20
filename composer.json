@@ -1,0 +1,46 @@
+{
+    "name": "generoi/acf-autocomplete-field-type",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "description": "Turn your basic text fields to autocomplete fields",
+    "homepage": "https://github.com/generoi/acf-autocomplete-field-type",
+    "authors": [
+      {
+        "name": "Shayan Abbas",
+        "email": "shayanabbas@outlook.com"
+      }
+    ],
+    "keywords": [
+      "wordpress",
+      "gutenberg"
+    ],
+    "support": {
+      "issues": "https://github.com/generoi/acf-autocomplete-field-type/issues"
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      },
+      {
+        "type": "composer",
+        "url": "https://packagist.minasithil.genero.fi/"
+      }
+    ],
+    "require": {
+      "php": ">=7.0.0"
+    },
+    "require-dev": {
+      "squizlabs/php_codesniffer": "^3.4.2"
+    },
+    "scripts": {
+      "test": [
+        "vendor/bin/phpcs"
+      ]
+    },
+    "archive" : {
+      "exclude": [
+        ".gitignore"
+      ]
+    }
+  }

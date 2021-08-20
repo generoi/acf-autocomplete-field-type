@@ -10,6 +10,6 @@
 
 ## Installation
 
-1. Copy the `acf-autocomplete` folder into your `web/app/mu-plugins` folder
+1. Run `composer require generoi/acf-autocomplete-field-type`
 2. Create a new field via ACF and select the autocomplete field type
 3. Read the description above for usage instructions
